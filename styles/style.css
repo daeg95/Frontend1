@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+header{
+    background-color: black;
+    color: white;
+}
+nav{
+    color: white;
+    background-color: #F0A83E;
+}
+.banner{
+    color: #3C2313;
+    
+}
+
+
+.suscription{
+    background-color: #F0A83E;
+}
+
+footer{
+    margin: 0%;
+}
+
+.info{
+    background-color: #3C2313;
+    color: white;
+}
+.derechos{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: xx-small;
+}
