@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -20,19 +22,23 @@
             <option value="frances">Frances</option>
         </select>
         <select name="moneda">
-            <option value="pesos_argentinos" selected></option>
-            <option value="cop" >ARG$</option>
-            <option value="us">COP</option>
+            <option value="pesos_argentinos" selected> ARG$ </option>
+            <option value="cop" > COP </option>
+            <option value="us"> DOLLAR $ </option>
         </select>
     </header>
     <main> 
         <nav>
-            <img>
-            <ul>
-                <li> Categories </li>
-                <li> Pest </li>
-                <li> Nosotros </li>
-                <li> Contactenos </li>
+            <img src="./images/Cat.png">
+            <img src="./images/Front.png">
+            <img src="./images/Cat&Dog.png">
+            <img src="./images/Dog.png"> 
+
+            <ul type="none">
+                <li> <i class="fa fa-paw icon-nav"> </i> Categories </li>
+                <li> <i class="fa fa-paw icon-nav"> </i> Pets </li>
+                <li> <i class="fa fa-paw icon-nav"> </i> Nosotros </li>
+                <li> <i class="fa fa-paw icon-nav"> </i> Contactenos </li>
             </ul>
         </nav>
 
@@ -40,11 +46,11 @@
             <img src="./images/banner.png" >
             <p>¡Es un placer tenerte aquí!</p>
             <p>¡Comederos en descuento!</p>
-            <button> Comederos</button>
+            <button class="comederos"> COMEDEROS</button>
         </section>
 
         <section class="products">
-            <img>
+            <i class="fa fa-paw icon-products"> </i>
             <h2> Productos destacados </h2>
             <p> Comederos     •     Accesorios     •     Comida </p>
             <div class="productos">
@@ -74,35 +80,41 @@
         <section class="contactenos">
             <h4> Contáctanos</h4> 
 
-            <button> Resetear </button>
-            <button> Enviar </button>
+            <button class="reset"> Resetear </button>
+            <button class="send"> Enviar </button>
             
         </section>
 
         <section class="suscription">
-            <i> </i>
+            <img src="./images/Group.png">
             <p>Suscribete para mas novedades</p>
-            <button> Suscribirse </button>
-            
-            
+            <button class="suscribe"> Suscribirse </button>
         </section>
 
     </main>
     <footer> 
         <div class="info">
-            <img>   
 
-            <i class="fab fa-instagram" style="size: 24px;"></i>
+            <img src="./images/Icon location.png">   
             <h4>Localidad</h4>
             <p> Calle - provincia </p>
 
-            <i class="fab fa-instagram" style="size: 24px;"></i>
+            <img src="./images/Icon phone.png">  
             <h4>Teléfono</h4>
             <p> Número de teléfono </p>
 
-            <i class="fab fa-instagram" style="size: 24px;"></i>
+            <img src="./images/Icon mail.png">  
             <h4> Correo Electrónico</h4>
             <p> Direccion de correo </p>
+
+            <div>
+
+                <img src="./images/Cat.png">
+                <img src="./images/Front footer.png">
+                <img src="./images/Cat&Dog footer.png">
+                <img src="./images/Dog.png"> 
+
+            </div>
 
         </div>
         <p class="derechos">

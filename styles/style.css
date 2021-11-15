@@ -6,20 +6,54 @@ header{
     background-color: black;
     color: white;
 }
+select{
+    background-color: black;
+    color: white;
+}
 nav{
     color: white;
     background-color: #F0A83E;
 }
-.banner{
-    color: #3C2313;
-    
+.icon-nav{
+    color:#F0A83E;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
-
-
+.banner{
+    color: #3C2313;   
+}
+.comederos{
+    background-color: #F0A83E;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.icon-products{
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F0A83E;
+}
+.reset{
+    background-color: #8A8787;
+    color: white;
+    border-radius: 15px;
+    border-color: transparent;
+}
+.send{
+    background-color: #F0A83E;
+    color: white;
+    border-radius: 15px;
+    border-color: transparent;
+}
 .suscription{
     background-color: #F0A83E;
 }
-
+.suscribe{
+    background-color: #3C2313;
+    color: white;
+    border-radius: 15px;
+    border-color: transparent;
+}
 footer{
     margin: 0%;
 }
